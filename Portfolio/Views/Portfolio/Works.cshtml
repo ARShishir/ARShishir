@@ -1,0 +1,133 @@
+﻿
+@{
+    ViewBag.Title = "Works";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<main class="site-content" id="content">
+    <!-- START: Breadcrumb Area -->
+    <section class="breadcrumb_area" data-bg-image="../assets/img/breadcrumb/breadcrumb-bg.jpg"
+             data-bg-color="#140C1C">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="breadcrumb_content d-flex flex-column align-items-center">
+                        <h2 class="title wow fadeInUp" data-wow-delay=".3s">Portfolio</h2>
+                        <div class="breadcrumb_navigation wow fadeInUp" data-wow-delay=".5s">
+                            <span><a href="/Home/Index">Home</a></span>
+                            <i class="far fa-long-arrow-right"></i>
+                            <span class="current-item">Portfolio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Breadcrumb Area -->
+    <!-- PORTFOLIO SECTION START -->
+    <section class="portfolio-section" id="works-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">My Recent Works</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">
+                            We put your ideas and thus your wishes in the form of a unique web project that inspires you and
+                            you customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="portfolio-filter text-center " data-wow-delay=".5s">
+                        <div class="button-group filter-button-group">
+                            <button data-filter="*" class="active">All</button>
+                            <button data-filter=".web">Web Development</button>
+                            <button data-filter=".grd">Graphic Design</button>
+                            <button data-filter=".ttd">2D and 3D Models</button>
+                            <button data-filter=".seo">SEO optimized</button>
+                            <div class="active-bg"></div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-box " data-wow-delay=".6s">
+                        <div class="portfolio-sizer"></div>
+                        <div class="gutter-sizer"></div>
+                        <div class="portfolio-item grd">
+                            <div class="image-box">                            
+                                <img src="~/assets/img/portfolio/p2.png" alt="" />
+                            </div>
+                            <div class="content-box">
+                                <h3 class="portfolio-title">
+                                    <span>
+                                        <a href="/Portfolio/Details" style="text-decoration: none; color: #FFFFFF;">
+                                            Project 01
+                                        </a>
+                                    </span>
+                                </h3>
+                                <p>Project was about precision and information.</p>
+                                <i class="flaticon-up-right-arrow"></i>
+                                <button href="/Portfolio/Details"></button>
+                            </div>
+                        </div>
+                        <div class="portfolio-item web">
+                            <div class="image-box">
+                                <img src="~/assets/img/portfolio/p1.jpg" alt="" />
+                            </div>
+                            <div class="content-box">
+                                <h3 class="portfolio-title">
+                                    <span>
+                                        <a href="/Portfolio/Details" style="text-decoration: none; color: #FFFFFF;">
+                                            Project 02
+                                        </a>
+                                    </span>
+                                </h3>
+                                <p>Project was about precision and information.</p>
+                                <i class="flaticon-up-right-arrow"></i>
+                                <button href="/Portfolio/Details" ></button>
+                            </div>
+                        </div>
+                        <div class="portfolio-item ttd">
+                            <div class="image-box">
+                                <img src="~/assets/img/portfolio/p3.jpg" alt="" />
+                            </div>
+                            <div class="content-box">
+                                <h3 class="portfolio-title">
+                                    <span>
+                                        <a href="/Portfolio/Details" style="text-decoration: none; color: #FFFFFF;">
+                                            Project 03
+                                        </a>
+                                    </span>
+                                </h3>
+
+                                <p>Project was about precision and information.</p>
+                                <i class="flaticon-up-right-arrow"></i>
+                                <button href="/Portfolio/Details"></button>
+                            </div>
+                        </div>
+                        <div class="portfolio-item ttd">
+                            <div class="image-box">
+                                <img src="~/assets/img/portfolio/p4.jpg" alt="" />
+                            </div>
+                            <div class="content-box">
+                                <h3 class="portfolio-title">
+                                    <span>
+                                        <a href="/Portfolio/Details" style="text-decoration: none; color: #FFFFFF;">
+                                            Project 04
+                                        </a>
+                                    </span>
+                                </h3>
+                                <p>Project was about precision and information.</p>
+                                <i class="flaticon-up-right-arrow"></i>
+                                <button href="/Portfolio/Details"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PORTFOLIO SECTION END -->   
+</main>
+
